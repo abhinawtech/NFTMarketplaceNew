@@ -82,8 +82,8 @@ const Home = () => {
       />
       <Category />
       <Subscribe />
-      <Brand />
-      <Video />
+      {/* <Brand /> */}
+      {/* <Video /> */}
     </div>
   );
 };

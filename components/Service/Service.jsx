@@ -8,7 +8,7 @@ const Service = () => {
   return (
     <div className={Style.service}>
       <div className={Style.service_box}>
-        <div className={Style.service_box_item}>
+        {/* <div className={Style.service_box_item}>
           <Image
             src={images.service1}
             alt="Filter & Discover"
@@ -23,7 +23,7 @@ const Service = () => {
             Connect with wallet, discover, buy NTFs, sell your NFTs and earn
             money
           </p>
-        </div>
+        </div> */}
         <div className={Style.service_box_item}>
           <Image
             src={images.service2}
@@ -48,7 +48,7 @@ const Service = () => {
             height={100}
           />
           <p className={Style.service_box_item_step}>
-            <span>Step 1</span>
+            <span>Step 2</span>
           </p>
           <h3>Connect Wallet</h3>
           <p>
@@ -64,7 +64,7 @@ const Service = () => {
             height={100}
           />
           <p className={Style.service_box_item_step}>
-            <span>Step 1</span>
+            <span>Step 3</span>
           </p>
           <h3>Start trading</h3>
           <p>
