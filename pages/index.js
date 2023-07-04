@@ -55,6 +55,8 @@ const Home = () => {
     <div className={Style.homePage}>
       <HeroSection />
       <Service />
+      <Filter />
+      {nfts.length == 0 ? <Loader /> : <NFTCard NFTData={nfts} />}
       <BigNFTSilder />
       <Title
         heading="Audio Collection"
@@ -73,8 +75,7 @@ const Home = () => {
         heading="Featured NFTs"
         paragraph="Discover the most outstanding NFTs in all topics of life."
       />
-      <Filter />
-      {nfts.length == 0 ? <Loader /> : <NFTCard NFTData={nfts} />}
+      
 
       <Title
         heading="Browse by category"
