@@ -54,22 +54,23 @@ const Home = () => {
   return (
     <div className={Style.homePage}>
       <HeroSection />
-      <Service />
-      <Filter />
+      
+      {/* <Filter /> */}
       {nfts.length == 0 ? <Loader /> : <NFTCard NFTData={nfts} />}
-      <BigNFTSilder />
-      <Title
+      <Service />
+      {/* <BigNFTSilder /> */}
+      {/* <Title
         heading="Audio Collection"
         paragraph="Discover the most outstanding NFTs in all topics of life."
       />
-      <AudioLive />
-      {creators.length == 0 ? (
+      <AudioLive /> */}
+      {/* {creators.length == 0 ? (
         <Loader />
       ) : (
         <FollowerTab TopCreator={creators} />
-      )}
+      )} */}
 
-      <Slider />
+      {/* <Slider />
       <Collection />
       <Title
         heading="Featured NFTs"
@@ -81,7 +82,7 @@ const Home = () => {
         heading="Browse by category"
         paragraph="Explore the NFTs in the most featured categories."
       />
-      <Category />
+      <Category /> */}
       <Subscribe />
       {/* <Brand /> */}
       {/* <Video /> */}
